@@ -156,6 +156,10 @@ body,
 @media screen and (max-width: 762px) {
     /* HEADER - START */
 
+    .container{
+        padding: 0 10px;
+    }
+
     .header-nav {
         display: none;
     }
