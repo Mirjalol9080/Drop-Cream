@@ -269,14 +269,10 @@ body,
         height: 50px;
     }
 
-    .header-search,
-    .menu-button,
-    .header-mobile__button {
-        width: 55px;
+
+    .header-input{
+        width: 300px;
         height: 40px;
-        padding: 8px;
-        border: 3px solid transparent;
-        transition: all 0.2s ease-in-out;
     }
 
     .header-search, .menu-button, .header-mobile__button{
@@ -290,7 +286,7 @@ body,
         padding: 5px;
         position: absolute;
         top: 30px;
-        right: 80px;
+        right: 120px;
     }
 
     .search-panel{
@@ -302,7 +298,7 @@ body,
     }
 
     .search-panel{
-        left: -100px;
+        left: -130px;
     }
 
     /* HEADER - END */
