@@ -303,3 +303,21 @@ body,
 
     /* HEADER - END */
 }
+
+@media screen and (max-width: 330px){
+    /* HAEDER - START */
+
+    .header-input{
+        width: 230px;
+    }
+
+    .search-panel{
+        left: -111px;
+    }
+
+    .header-search__close{
+        right: 100px;
+    }
+
+    /* HEADER - END */
+}
