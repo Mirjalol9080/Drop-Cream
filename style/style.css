@@ -170,3 +170,19 @@ body,
 
     /* HEADER - END */
 }
+
+@media screen and (max-width: 762px) {
+
+    /* HEADER - START */
+
+    .header{
+        padding: 15px 0;
+    }
+
+    .header-logo {
+        width: 100px;
+        height: 50px;
+    }
+
+    /* HEADER - END */
+}
