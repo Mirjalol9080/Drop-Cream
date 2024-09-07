@@ -286,7 +286,7 @@ body,
         padding: 5px;
         position: absolute;
         top: 30px;
-        right: 120px;
+        right: 130px;
     }
 
     .search-panel{
@@ -298,7 +298,7 @@ body,
     }
 
     .search-panel{
-        left: -130px;
+        left: -145px;
     }
 
     /* HEADER - END */
