@@ -280,8 +280,8 @@ body,
     }
 
     .header-search, .menu-button, .header-mobile__button{
-        width: 40px;
-        height: 35px;
+        width: 50px;
+        height: 40px;
     }
 
     .header-search__close {
