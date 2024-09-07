@@ -297,6 +297,10 @@ body,
         column-gap: 5px;
     }
 
+    .search-panel.open{
+        top: 50px;
+    }
+
     .search-panel{
         left: -100px;
     }
