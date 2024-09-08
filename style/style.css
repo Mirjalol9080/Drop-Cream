@@ -196,7 +196,6 @@ body,
 
 .banner-row {
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -280,7 +279,24 @@ body,
 
 
 
+@media screen and (max-width: 1050px){
+    /* BANNER - START */
 
+    .banner-swiper{
+        display: none;
+    }
+
+    .banner-right__buttons{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .banner-type__title{
+        max-width: 30px;
+        font-size: 16px;
+    }
+    /* BANNER - EDN */
+}
 
 @media screen and (max-width: 1000px) {
     /* HEADER - START */
@@ -332,6 +348,30 @@ body,
     }
 
     /* HEADER - END */
+
+    /* BANNER - START */
+
+    .banner {
+        padding: 10px 0;
+    }
+
+    .banner-title{
+        max-width: 470px;
+        font-size: 60px;
+    }
+
+    .banner-subtitle{
+        max-width: 500px;
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+
+    .banner-left__button{
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+    /* BANNER - END */
 }
 
 @media screen and (max-width: 600px) {
@@ -397,6 +437,37 @@ body,
     }
 
     /* HEADER - END */
+
+    /* BANNER - START */
+
+    .banner-title{
+        max-width: 350px;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .banner-subtitle{
+        max-width: 390px;
+        font-size: 14px;
+    }
+
+    .banner-right{
+        display: none;
+    }      
+
+    /* BANNER - END */
+}
+
+@media screen and (max-width: 400px){
+    /* BANNER - START */
+
+
+
+    .banner-left__buttons{
+        column-gap: 15px;
+    }
+
+    /* BANNER - END */
 }
 
 @media screen and (max-width: 330px) {
