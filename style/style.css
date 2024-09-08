@@ -35,7 +35,7 @@ a {
     color: inherit;
 }
 
-input{
+input {
     outline: none;
     border: none;
     background-color: transparent;
@@ -86,7 +86,7 @@ body,
     position: relative;
 }
 
-.search-panel{
+.search-panel {
     position: absolute;
     top: -150px;
     left: -91px;
@@ -96,12 +96,12 @@ body,
     transition: all 0.3s ease-in-out;
 }
 
-.search-panel.open{
+.search-panel.open {
     top: 0;
     transition: all 0.3s ease-in-out;
 }
 
-.header-search__close{
+.header-search__close {
     width: 60px;
     height: 44px;
     padding: 8px;
@@ -113,14 +113,14 @@ body,
     justify-content: center;
 }
 
-.header-search__close:hover{
+.header-search__close:hover {
     background-color: var(--white-color_3);
     backdrop-filter: 5px;
     border-color: var(--white-color);
     border-radius: 15px;
 }
 
-.header-input{
+.header-input {
     width: 430px;
     height: 45px;
     background-color: rgb(248, 248, 248);
@@ -188,6 +188,98 @@ body,
 /* HEADER - END */
 
 
+/* BANNER - START */
+
+.banner {
+    padding: 30px 0;
+}
+
+.banner-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-title {
+    max-width: 659px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 91%;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.banner-subtitle {
+    max-width: 659px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 123%;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 25px;
+}
+
+.banner-left__buttons {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.banner-left__button {
+    border-radius: 10px;
+    padding: 15px 20px;
+    backdrop-filter: blur(14.100000381469727px);
+    background: rgba(255, 255, 255, 0.15);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 123%;
+    color: #fff;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.banner-left__button:hover ,.banner-type__button:hover {
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+
+.banner-type__title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.banner-right__buttons{
+    display: flex;
+    align-items: center;
+    column-gap: 35px;
+}
+
+.banner-swiper{
+    margin-bottom: 60px;
+}
+
+.banner-type__button {
+    border-radius: 16px;
+    width: 60px;
+    height: 60px;
+    backdrop-filter: blur(13.100000381469727px);
+    background: rgba(255, 255, 255, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+/* BANENR - END */
+
+
+
+
 
 
 @media screen and (max-width: 1000px) {
@@ -216,21 +308,22 @@ body,
         padding: 0 10px;
     }
 
-    .header-link,.header-search{
+    .header-link,
+    .header-search {
         display: none;
     }
 
-    .header-input{
-        width: 210px;  
-        height: 35px;      
+    .header-input {
+        width: 210px;
+        height: 35px;
     }
 
-    .search-panel{
+    .search-panel {
         left: -165px;
         column-gap: 10px;
     }
 
-    .search-panel.open{
+    .search-panel.open {
         bottom: 0;
     }
 
@@ -241,7 +334,7 @@ body,
     /* HEADER - END */
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     /* HEADER - START */
 
     .header-logo {
@@ -249,7 +342,7 @@ body,
         height: 60px;
     }
 
-    .search-panel{
+    .search-panel {
         left: -140px;
     }
 
@@ -270,12 +363,14 @@ body,
     }
 
 
-    .header-input{
+    .header-input {
         width: 300px;
         height: 40px;
     }
 
-    .header-search, .menu-button, .header-mobile__button{
+    .header-search,
+    .menu-button,
+    .header-mobile__button {
         width: 50px;
         height: 40px;
     }
@@ -289,33 +384,33 @@ body,
         right: 130px;
     }
 
-    .search-panel{
+    .search-panel {
         column-gap: 5px;
     }
 
-    .search-panel.open{
+    .search-panel.open {
         top: 50px;
     }
 
-    .search-panel{
+    .search-panel {
         left: -148px;
     }
 
     /* HEADER - END */
 }
 
-@media screen and (max-width: 330px){
+@media screen and (max-width: 330px) {
     /* HAEDER - START */
 
-    .header-input{
+    .header-input {
         width: 230px;
     }
 
-    .search-panel{
+    .search-panel {
         left: -111px;
     }
 
-    .header-search__close{
+    .header-search__close {
         right: 100px;
     }
 
