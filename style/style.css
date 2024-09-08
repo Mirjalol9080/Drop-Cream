@@ -461,10 +461,21 @@ body,
 @media screen and (max-width: 400px){
     /* BANNER - START */
 
+    .banner-title{
+        font-size: 35px;
+    }
 
+    .banner-subtitle{
+        font-size: 13px;
+    }
 
     .banner-left__buttons{
         column-gap: 15px;
+    }
+
+    .banner-left__button {
+        font-size: 15px;
+        padding: 5px 10px;
     }
 
     /* BANNER - END */
