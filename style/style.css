@@ -769,6 +769,13 @@ body {
     }
 
     /* BANNER - END */
+
+    /* FOOTER - START */
+
+    .fotter-title{
+        font-size: 15px;
+    }
+    /* FOOTER - END */
 }
 
 @media screen and (max-width: 330px) {
