@@ -53,9 +53,11 @@ body,
     font-family: sans-serif;
     font-size: 16px;
     font-weight: normal;
+}
+
+body{
     background-image: url(../img/wrapper-bg__img/wrapper-bg.png);
     background-size: cover;
-    background-repeat: repeat-y;
 }
 
 /* HEADER - START */
