@@ -282,7 +282,7 @@ body,
 
 /* MENU - START */
 
-.menu{
+.menu {
     padding: 50px 0;
 }
 
@@ -308,7 +308,7 @@ body,
     color: #000;
 }
 
-.menu-row{
+.menu-row {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -343,7 +343,7 @@ body,
     position: relative;
 }
 
-.menu-card__img img{ 
+.menu-card__img img {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -375,8 +375,7 @@ body,
 .menu-right__button {
     border: 0.50px solid #fff;
     border-radius: 8px;
-    width: 139px;
-    height: 40px;
+    padding: 10px 20px;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 18px;
@@ -384,11 +383,11 @@ body,
     transition: all 0.3s ease-in-out;
 }
 
-.menu-right__button:hover{
+.menu-right__button:hover {
     background-color: var(--white-color_3);
 }
 
-.menu-card__reteng{
+.menu-card__reteng {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -429,16 +428,17 @@ body,
 
 /* MENU - END */
 
-@media screen and (max-width: 1375px){
+@media screen and (max-width: 1375px) {
     /* MENU - START */
 
-    .menu-row{
+    .menu-row {
         flex-direction: column;
     }
 
-    .menu-card{
+    .menu-card {
         width: calc(100%);
     }
+
     /* MENU - END */
 }
 
@@ -536,16 +536,27 @@ body,
     }
 
     /* BANNER - END */
+
+    /* MENU - START */
+    .menu-trekk{
+        width: 150px;
+        height: 40px;
+    }
+
+    .trek-title {
+        font-size: 17px;
+    }
+    /* MENU - END */
 }
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 680px) {
     /* MENU - START */
 
-    .menu-card{
+    .menu-card {
         width: 640px;
     }
 
-    .menu-row{
+    .menu-row {
         display: flex;
         flex-shrink: 1;
     }
@@ -553,12 +564,34 @@ body,
     /* MENU - END */
 }
 
-@media screen and (max-width: 660px){
+@media screen and (max-width: 660px) {
     /* MENU - START */
 
-    .menu-card{
+    .menu-card {
         width: 100%;
         height: 250px;
+    }
+
+    .menu-card__img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .menu-right__title {
+        font-size: 22px;
+    }
+
+    .menu-right__subtitle {
+        font-size: 16px;
+    }
+
+    .menu-right__button {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .menu-reting__card-title {
+        font-size: 25px;
     }
 
     /* MENU - END */
@@ -646,6 +679,26 @@ body,
     }
 
     /* BANNER - END */
+
+    /* MENU - START */
+
+    .menu-trekk{
+        display: none;
+    }
+
+    .menu-card__img img{
+        top: 0;
+        height: 300px;
+    }
+
+    .menu-card{
+        height: 400px;
+        flex-direction: column;
+        padding: 0;
+        padding-bottom: 20px;
+    }
+
+    /* MENU - EDN */
 }
 
 @media screen and (max-width: 400px) {
