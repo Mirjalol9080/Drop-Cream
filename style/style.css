@@ -343,6 +343,11 @@ body {
     width: 307px;
     height: 300px;
     position: relative;
+    transition: all 0.2s ease-in;
+}
+
+.menu-card__img:hover{
+    transform: scale(1.2);
 }
 
 .menu-card__img img {
@@ -418,6 +423,9 @@ body {
     font-weight: 400;
     font-size: 14px;
     color: #fff;
+    padding: 0 5px;
+    border-left: 1px solid;
+    border-right: 1px solid;
 }
 
 .menu-colcor__button {
