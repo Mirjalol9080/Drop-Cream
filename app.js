@@ -19,7 +19,7 @@ MenuButton.addEventListener('click' , function(){
 ModalBg.addEventListener('click' , function(){
     if(Modal.classList.contains('open')){
         Modal.classList.remove('open');
-        document.body.style.overflow = 'hidden';
+        document.body.style.overflow = '';
     }
 })
 
