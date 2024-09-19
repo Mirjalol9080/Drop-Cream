@@ -60,6 +60,73 @@ body {
     background-size: cover;
 }
 
+/* MODAL - SETING - START */
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal.open{
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal.open .modal-panel{
+    right: 0;
+}
+
+.modal-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-panel{
+    position: absolute;
+    width: 400px;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    background-color: var(--white-color);
+    transition: all 0.3s ease-in-out;
+    padding: 25px 30px;
+}
+
+/* MODAL - SETING - END */
+
+/* MODAL - START */
+
+.modal-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-close__btn{
+    padding: 7px 11px;
+    border: 3px solid transparent;
+    transition: all 0.2s ease-in;
+}
+
+.modal-close__btn:hover{
+    border-color: #ff3838;
+    border-radius: 10px;
+}
+
 /* HEADER - START */
 
 .header {
@@ -735,6 +802,14 @@ body {
 
     /* BANNER - END */
 
+    /* MODAL - START */
+
+    .modal-panel{
+        width: 300px;
+    }
+
+    /* MODAL - END */
+
     /* MENU - START */
 
     .menu-trekk {
@@ -754,9 +829,18 @@ body {
     }
 
     /* MENU - EDN */
+
 }
 
 @media screen and (max-width: 400px) {
+
+    /* MODAL - START */
+    
+    .modal-panel{
+        width: 260px;
+    }
+    /* MODAL - EDN */
+
     /* BANNER - START */
 
     .banner-title {
@@ -784,6 +868,7 @@ body {
         font-size: 15px;
     }
     /* FOOTER - END */
+
 }
 
 @media screen and (max-width: 330px) {
