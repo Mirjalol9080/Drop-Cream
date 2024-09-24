@@ -70,12 +70,14 @@
                                 <div class="login-line"></div>
                             </div>
                         </div>
-                        <div class="login-local">
-                            <label class="login-curst">First name<br><input class="login-input" type="name" /></label>
-                            <label class="login-curst">Last name<br><input class="login-input" type="text" /></label>
-                            <label class="login-curst">Email address<br><input id="login-in" class="login-input" type="email" /></label>
-                        </div>
-                        <button class="login-sumbit__btn" type="submit">Sign up</button>
+                        <form id="signupForm">
+                            <div class="login-local">
+                                <label class="login-curst">First name<br><input class="login-input" type="text" name="firstName" required/></label>
+                                <label class="login-curst">Last name<br><input class="login-input" type="text" name="lastName" required/></label>
+                                <label class="login-curst">Email address<br><input id="login-in" class="login-input" name="email" type="email" required/></label>
+                            </div>
+                            <button class="login-sumbit__btn" type="submit">Sign up</button>
+                        </form>
                     </div>
                     <div class="login-card">
                         <h2 class="Login-title">Log in</h2>
@@ -101,6 +103,20 @@
                                 <p class="login-nav__title">Sign up with Google</p>
                             </a>
                         </div>
+                        <div class="login-or">
+                            <div class="login-lines">
+                                <div class="login-line"></div>
+                                <div class="login-line__title">OR</div>
+                                <div class="login-line"></div>
+                            </div>
+                        </div>
+                        <form id="signupForm">
+                            <div class="login-local">
+                                <label class="login-curst">Username<br><input class="login-input" type="text" name="Username" required/></label>
+                                <label class="login-curst">Password<br><input class="login-input" type="password" name="password" required/></label>
+                            </div>
+                            <button class="login-sumbit__btn" type="submit">Sign up</button>
+                        </form>
                     </div>
                 </div>               
             </div>

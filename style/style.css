@@ -332,6 +332,10 @@ body {
     color: #fff;
 }
 
+.login-sumbit__btn.active{
+    background-color: #ff3838;
+}
+
 /* LOGIN - END */
 
 /* HEADER - START */
@@ -810,6 +814,16 @@ body {
 }
 
 @media screen and (max-width: 762px) {
+
+    /* LOGIN - START */
+
+    .panel-login{
+        width: 550px;
+        padding: 48px 45px;
+    }
+
+    /* LOGIN - END */
+
     /* HEADER - START */
 
     .container {
@@ -939,6 +953,16 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+    
+    /* LOGIN - START */
+
+    .panel-login{
+        width: 500px;
+        padding: 20px 10px;
+    }
+
+    /* LOGIN - START */
+
     /* HEADER - START */
 
     .header-logo {
@@ -954,6 +978,26 @@ body {
 }
 
 @media screen and (max-width: 550px) {
+
+    /* LOGIN - START */
+
+    .panel-login{
+        width: 400px;
+        padding: 20px 10px;
+    }
+
+    
+    .login-input {
+        width: 182px;
+    }
+
+    #login-in {
+        width: 380px;
+    }
+
+    .login-nav,.login-sumbit__btn{
+        width: 354px;
+    }
 
     /* HEADER - START */
 

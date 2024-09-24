@@ -11,6 +11,18 @@ const Login = document.querySelector('.login');
 const loginBg = document.querySelector('.login-bg');
 const Loginbuttons = document.querySelectorAll('.login-btn');
 const Logincards = document.querySelectorAll('.login-card');
+const form = document.getElementById('signupForm');
+const button = document.querySelector('.login-sumbit__btn')
+
+form.addEventListener('input', () => {
+    if (form.checkValidity()) {
+        button.disabled = false;
+        button.classList.add('active');
+    } else {
+        button.disabled = true;
+        button.classList.remove('active');
+    }
+});
 
 Loginbuttons[0].classList.add('active');
 Logincards[0].classList.add('open');
